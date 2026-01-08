@@ -1,21 +1,15 @@
-# React State Management – Fundamentals
+# React Redux
 
-## 📌 What is State in React?
-**State** is a built-in React object used to store data or information about a component.  
-When state changes, the component **re-renders** to reflect the updated UI.
-
-State is:
-- Mutable
-- Local to a component (by default)
-- Managed internally by React
+## 📌 Three core Cocept?
+**Shop** - That holds the state of your application
+**action** - that describes the changes in the state of the application.
+**reducer** - which actually carries out the state transition depending on the action
 
 ---
 
-## 🧠 Why State is Important
-State allows React applications to be:
-- **Dynamic**
-- **Interactive**
-- **Data-driven**
+## 🧠 Three Principles
+### **First Principle** The state of your whole application is stored in an object tree within a single store. 
+
 
 Without state, React components would be static and unable to respond to user actions.
 
